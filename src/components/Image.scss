@@ -32,3 +32,20 @@
     }
     
 }
+@media(max-width:768px) and (min-width:576px){
+  .list-img{
+  
+    column-count: 3;
+  }
+}
+@media(max-width:575px){
+  .list-img{
+  
+    column-count: 2;
+      .btn-save button {
+        height: 39px;
+        font-size: 0.8rem;
+      }
+  }
+
+}

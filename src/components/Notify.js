@@ -9,7 +9,7 @@ function Notify(props){
         <div className={cl} id="notify">
             {
                 listTodo.map((item)=>{
-                    if(item.id<10)
+                    if(item.id<100)
                     return <NotifyItem key={item.id}>{item.title}</NotifyItem>
                 }
                 )
