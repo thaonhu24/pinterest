@@ -1,0 +1,101 @@
+.header{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 2px 0 5px #ccc;
+    .logo {
+        margin: auto 10px;
+        img{
+            width: 25px
+        }
+    }
+    
+    button{
+        height: 46px;
+        padding: 0 13px;
+        margin-right: 8px;
+        color: #fff;
+        background-color: #000;
+        border: none;
+        border-radius: 25px;
+        font: {
+            size: 1rem;
+            weight: 600;
+        }
+
+    }
+}
+.search {
+    width: 100%;
+    background-color: rgb(224, 224, 224);
+    padding:0 10px;
+    border-radius: 25px;
+    position: relative;
+    z-index: 100;
+    form{
+        height: 46px;
+        display:flex;
+        align-items: center;
+        input{
+            width: 90%;
+            height: 30px;
+        }
+        .icon-search{
+            img{
+                width:20px;
+            }
+        }
+        input{
+            border:none;
+            background-color:rgb(224, 224, 224);
+            &:focus{
+                outline: none;
+            }
+        }
+    }
+}
+.active{
+    display: block !important;
+}
+.hide{
+    display: none !important;
+}
+.noti-control{
+    display: flex;
+    margin-left: 10px;
+    width: 20%;
+    align-items: center;
+    .icon-noti,
+    .icon-mess,
+    .img-profile,
+    .icon-arrow{
+        padding: 9px;
+        position: relative;
+        width: 44px;
+        height: 44px;
+        cursor: pointer;
+        border-radius: 50%;
+        img{
+            height: 100%;
+            width: 100%;
+            
+        }
+        &:hover{
+            background-color: rgb(231, 231, 231);
+
+        }
+    }
+    .img-profile img{
+        border-radius: 50%
+    }
+    .icon-arrow
+    { 
+        width: 23px;
+        height: 23px;
+        padding: 0;
+        text-align: center;
+        img{
+            width: 12px;
+        }
+    }
+}

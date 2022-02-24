@@ -1,0 +1,13 @@
+.user_infor{
+    display: flex;
+    .img_user{
+        width:30px;
+        margin-right: 8px;
+        img{
+            border-radius: 50%;
+        }
+    }
+    .name-user{
+        font-size:12px;
+    }
+}

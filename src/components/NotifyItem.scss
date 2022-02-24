@@ -1,0 +1,10 @@
+.notify-item{
+    border-bottom: rgb(235, 235, 235) 1px solid;
+    padding: 4px 8px;
+    p{
+        margin-bottom: 5px;
+    }
+}
+.notify-item:hover{
+    background-color:rgba(143, 210, 255, 0.404)
+}

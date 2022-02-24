@@ -1,0 +1,14 @@
+.notify{
+    padding:8px;
+    box-shadow: 2px 2px 4px #ccc;
+    position: absolute;
+    right:10px;
+    z-index: 99;
+    background-color: #fff;
+    top:100%;
+    width: 15rem;
+    border-radius: 5px;
+    display: none;
+    font-size: 14px;
+    z-index: 100;
+}
