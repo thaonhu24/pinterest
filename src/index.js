@@ -1,9 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.scss';
-import Header from './components/Header'
-import ListImage from './components/ListImage';
-import useGetUser from './components/hooks/useGetUser';
+import Header from './components/NavHeader/Header/Header'
+import ListImage from './components/Image/ListImage/ListImage';
 
 
 // const listImage=[

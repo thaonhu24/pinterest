@@ -1,6 +1,6 @@
 import React from "react"
-import './Image.scss'
-import SaveButton from "./SaveButton"
+import './ImageItem.scss'
+import SaveButton from '../../SaveButton/SaveButton'
 function Image(props) {
 
     return (

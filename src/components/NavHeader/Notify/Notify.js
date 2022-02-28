@@ -1,6 +1,6 @@
 import React from "react";
-import NotifyItem from "./NotifyItem";
-import useGetUser from "./hooks/useGetUser";
+import NotifyItem from "../NotifyItem/NotifyItem";
+import useGetUser from "../../hooks/useGetUser";
 import './Notify.scss'
 function Notify(props){
     const listTodo=useGetUser('https://jsonplaceholder.typicode.com/todos');

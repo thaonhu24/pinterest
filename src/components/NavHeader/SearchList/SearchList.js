@@ -1,7 +1,6 @@
 import React from "react";
 import "./SearchList.scss"
-import SearchItem from "./SearchItem";
-import useGetUser from "./hooks/useGetUser";
+import SearchItem from "../SearchItem/SearchItem";
 function SearchList(props){
     const listSearch=props.list;
     return(
