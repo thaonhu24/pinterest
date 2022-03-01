@@ -1,4 +1,0 @@
-let initState = {
-    color: "#FFFFFF"
-    };
-    
