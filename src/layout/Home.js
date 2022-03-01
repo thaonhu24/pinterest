@@ -1,6 +1,8 @@
 import React from "react"
 import ListImage from "../components/Image/ListImage/ListImage"
 import Header from "../components/NavHeader/Header/Header"
+import {connect} from 'react-redux'
+import {fc_increment,fc_decrement} from '../redux/action'
 
 function Home(props) {
     const handlerCloseOverlay = () => {
