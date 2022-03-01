@@ -1,6 +1,6 @@
 import React from "react";
-import Image from "./Image";
-import UserInfor from "./UserInfor";
+import Image from "../../Image/ImageItem/ImageItem";
+import UserInfor from "../../UserInfor/UserInfor";
 import './CardImage.scss'
 function CardImage(props){
     return(

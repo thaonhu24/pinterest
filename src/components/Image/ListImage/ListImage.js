@@ -1,7 +1,6 @@
 import React, {useEffect,useState} from "react";
-import CardImage from "./CardImage";
-import useGetUser from "./hooks/useGetUser";
-import ImageApi from "../api/imageApi";
+import CardImage from "../CardImage/CardImage";
+import ImageApi from "../../../api/imageApi";
 function ListImage(){
     const [listImg,setListImg]=useState([])
     useEffect(()=>{
