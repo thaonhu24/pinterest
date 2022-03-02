@@ -3,7 +3,7 @@ import './Header.scss'
 import Notify from '../Notify/Notify';
 import SearchList from "../SearchList/SearchList";
 import useGetUser from "../../hooks/useGetUser";
-function Header() {
+function Header(props) {
 
 
     //click outside
@@ -30,11 +30,8 @@ function Header() {
 
     const handlerOpen = () => {
         setClickedOutside(false)
-        // let doc =document.getElementById('notify')
         let search = document.getElementsByClassName('search-list')[0]
-        // let over = document.getElementsByClassName('overlay')[0]
-        // doc.classList.toggle('active')
-        // over.classList.toggle('over')
+       
         search.style.display = 'none'
 
     }
@@ -59,7 +56,7 @@ function Header() {
     };
     
     return (
-        <div className='header'>
+        <div className={`header ${props.bg?"light":"header-dark"}`} >
             
             <div className="logo">
                 <img src="https://cdn-icons-png.flaticon.com/512/220/220214.png" alt="" />

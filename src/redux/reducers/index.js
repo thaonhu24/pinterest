@@ -1,22 +1,19 @@
 import {combineReducers} from 'redux';
-import {INCREMENT, DECREMENT} from '../actions'
+import {DARK, LIGHT} from '../actions'
  
 const initApp= {
-    count:0
+    bg:false
 }
 
 function fc_app(state = initApp,action){
-    console.log(action)
     switch(action.type){
-        case INCREMENT:{
-            return{
-                count:state.count+1
-            }
+        case DARK:{
+            state=false
+            return state;
         }
-        case DECREMENT:{
-            return{
-                count:state.count-1
-            }
+        case LIGHT:{
+            state=true
+            return state
         }
         default:
             return state;

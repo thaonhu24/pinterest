@@ -1,15 +1,15 @@
-export const INCREMENT = 'INCREMENT';
-export const DECREMENT = 'DECREMENT';
+export const DARK = 'DARK';
+export const LIGHT = 'LIGHT';
  
-export function fc_increment(){
+export function action_dark(){
     return{
-        type:'INCREMENT'
+        type:'DARK'
        
     }
 }
  
-export function fc_decrement(){
+export function action_light(){
     return {
-        type:'DECREMENT'
+        type:'LIGHT'
     }
 }
