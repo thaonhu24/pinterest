@@ -83,24 +83,14 @@ function Header(props) {
                 <div className="icon-mess">
                     <img src="https://cdn-user-icons.flaticon.com/26841/26841521/1645168903612.svg?token=exp=1645169804~hmac=b3cdb5f87233c40a8dfa18cff35c08d0" alt="" />
                 </div>
-                
-                <div className="noti-control">
-                    <div className="icon-noti">
-                        <img onClick={handlerOpen} src="https://cdn-icons.flaticon.com/png/512/4641/premium/4641929.png?token=exp=1646060845~hmac=2b3e4dddb407c3a8cbbb1c5c5b41683f" alt="" />
-                        <div ref={myRef} onClick={handleClickInside}>
-                            <Notify class={clickedOutside?" ":"active "}/>
-                        </div>
-                    </div>
-                    <div className="icon-mess">
-                        <img src="https://cdn-icons-png.flaticon.com/512/6963/6963420.png" alt="" />
-                    </div>
+
                     <div className="img-profile">
-                        <img src="https://i.pinimg.com/736x/33/55/9b/33559bb9d6cf0a1c700a903b996645f0.jpg" alt="" />
+                        <img src="https://taimienphi.vn/tmp/cf/aut/mAKI-top-anh-dai-dien-dep-chat-1.jpg" alt="" />
                     </div>
                     <div className="icon-arrow">
                         <img src="https://cdn-user-icons.flaticon.com/26841/26841521/1645174779729.svg?token=exp=1645175680~hmac=bc6a7145192a3e42d24ee43bb2bb2dfd" alt="" />
                     </div>
-                </div>
+                
             </div>
         </div>
     )

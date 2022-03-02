@@ -88,8 +88,13 @@
 
         }
     }
-    .img-profile img{
-        border-radius: 50%
+    .img-profile{
+        padding: 4px;
+        
+        img{
+           border-radius: 50%;
+           height: auto;
+       }
     }
     .icon-arrow
     { 
