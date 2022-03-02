@@ -15,8 +15,8 @@ function Home(props) {
         <div className={props.bg ? "light" : "dark"}>
             <Header bg={props.bg} />
             <div className="dark-mode">
-                <button className="btn-dark" onClick={props.dark}><img src="https://cdn-icons.flaticon.com/png/512/5126/premium/5126014.png?token=exp=1646191882~hmac=db1a65487404640e2fc2e2d2dab10c74" alt="" /></button>
-                <button className="btn-light" onClick={props.light}><img src="https://cdn-icons.flaticon.com/png/512/4587/premium/4587297.png?token=exp=1646191959~hmac=06370fe1ea2d01990dbf7d128090c97b" alt="" /></button>
+                <button className="btn-dark" onClick={props.dark}><img src="image/dark.png" alt="" /></button>
+                <button className="btn-light" onClick={props.light}><img src="image/light.png" alt="" /></button>
             </div>
 
             <div className='overlay' onClick={handlerCloseOverlay}></div>

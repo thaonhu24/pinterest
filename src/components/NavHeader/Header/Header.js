@@ -3,6 +3,7 @@ import './Header.scss'
 import Notify from '../Notify/Notify';
 import SearchList from "../SearchList/SearchList";
 import useGetUser from "../../hooks/useGetUser";
+
 function Header(props) {
 
 
@@ -59,7 +60,7 @@ function Header(props) {
         <div className={`header ${props.bg?"light":"header-dark"}`} >
             
             <div className="logo">
-                <img src="https://cdn-icons-png.flaticon.com/512/220/220214.png" alt="" />
+                <img src="image/logo.png" alt="" />
             </div>
             <div className="btn-home">
                 <button>Home</button>
@@ -67,7 +68,7 @@ function Header(props) {
             <div className="search" onClick={handlerSearch}>
                     <form action="">
                         <div className="icon-search">
-                            <img src="https://cdn-icons.flaticon.com/png/512/2952/premium/2952117.png?token=exp=1646061015~hmac=20ada8b23cfa96c70a158c74a7b26302" alt="" />
+                            <img src="image/search.png" alt="" />
                         </div>
                         <input type="text" placeholder="Search"  onChange={handlerSearch}/>
                     </form>
@@ -75,13 +76,13 @@ function Header(props) {
                 </div>
             <div className="noti-control">
                 <div className="icon-noti">
-                    <img onClick={handlerOpen} src="https://cdn-user-icons.flaticon.com/26841/26841521/1645168787983.svg?token=exp=1645169688~hmac=81ba23ef99744f3dd1d63d803d965c9a" alt="" />
+                    <img onClick={handlerOpen} src="image/notify.png" alt="" />
                     <div ref={myRef} onClick={handleClickInside}>
                         <Notify class={clickedOutside ? " " : "active "} />
                     </div>
                 </div>
                 <div className="icon-mess">
-                    <img src="https://cdn-user-icons.flaticon.com/26841/26841521/1645168903612.svg?token=exp=1645169804~hmac=b3cdb5f87233c40a8dfa18cff35c08d0" alt="" />
+                    <img src="image/chat.png" alt="" />
                 </div>
 
                     <div className="img-profile">
